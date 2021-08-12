@@ -1,0 +1,3 @@
+include ':qsocket'
+include ':app'
+rootProject.name = "QSocket"
