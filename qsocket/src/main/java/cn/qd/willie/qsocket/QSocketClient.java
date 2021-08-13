@@ -272,7 +272,8 @@ public class QSocketClient {
 
 
     public void stopHeartBeat() {
-        mRingTimerSchedule.stop();
+        if(mRingTimerSchedule != null)
+            mRingTimerSchedule.stop();
     }
 
     public void startHeartBeat() {
